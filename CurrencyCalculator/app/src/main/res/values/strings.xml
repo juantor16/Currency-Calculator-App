@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CurrencyCalculator</string>
+    <string name="action_settings">Settings</string>
+//English
+    //Top Buttons
+    <string name="Pesos_to_Dollars">Pesos to Dollars</string>
+    <string name="Dollars_to_pesos">Dollars to Pesos</string>
+    //Texts
+    <string name="hello_world">Currency Calculator</string>
+    <string name="amount">enter the amount you would like to calculate</string>
+    //User Input
+    <string name="enter_number">Enter the amount here</string>
+    //Results
+        //From dollars to pesos
+    <string name="Dollars">Dollars</string>
+    <string name="from">Is equals to</string>
+    <string name="Pesos">Pesos</string>
+</resources>
