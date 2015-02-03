@@ -17,4 +17,6 @@
     <string name="Dollars">Dollars</string>
     <string name="from">Is equals to</string>
     <string name="Pesos">Pesos</string>
+   <string name="total1">Total</string>
+
 </resources>
