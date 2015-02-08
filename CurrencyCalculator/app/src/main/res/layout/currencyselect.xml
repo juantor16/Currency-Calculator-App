@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff5a2">
+    <Button
+        android:layout_width="259sp"
+        android:layout_height="100sp"
+        android:text="Dollars to Pesos"
+        android:id="@+id/btndp"
+        android:background="@drawable/benj"
+        android:layout_margin="@dimen/abc_action_button_min_width_overflow_material"
+        android:clickable="false"
+        android:backgroundTint="#ff001eff"
+        android:textColor="#ff002cff"
+        android:textSize="40sp"
+        android:backgroundTintMode="src_over"
+        android:capitalize="words"
+        android:textStyle="bold" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="259dp"
+            android:layout_height="100sp"
+            android:text="Pesos to Dollars"
+            android:id="@+id/btnpd"
+            android:background="@drawable/pesos"
+            android:layout_margin="@dimen/abc_action_button_min_width_overflow_material"
+            android:clickable="false"
+            android:backgroundTint="#ff001eff"
+            android:textColor="#fffffbfd"
+            android:textSize="40sp"
+            android:backgroundTintMode="src_over"
+            android:capitalize="words"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

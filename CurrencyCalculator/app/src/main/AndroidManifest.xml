@@ -9,7 +9,7 @@
         android:theme="@style/AppTheme" >
 
         <activity
-            android:name=".MainActivity"
+            android:name=".MainScreen"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,11 +18,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".calculator"
+            android:name=".CurrencySelect"
             android:label="@string/app_name">
         </activity>
         <activity
-            android:name=".pesostodollars"
+            android:name=".DollarsToPesos"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".PesosToDollars"
             android:label="@string/app_name">
         </activity>
     </application>

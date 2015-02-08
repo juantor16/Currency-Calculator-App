@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">CurrencyCalculator</string>
+    <string name="app_name">Currency Calculator</string>
     <string name="action_settings">Settings</string>
 //English
     //Top Buttons
@@ -17,6 +17,10 @@
     <string name="Dollars">Dollars</string>
     <string name="from">Is equals to</string>
     <string name="Pesos">Pesos</string>
-   <string name="total1">Total</string>
+   <string name="total1">Total in pesos blue is:</string>
+    <string name="total2">Total in official pesos is:</string>
+    //From pesos to dollars
+    <string name="total3">Total in dollar blue is:</string>
+    <string name="total4">Total in official dollar is:</string>
 
 </resources>
