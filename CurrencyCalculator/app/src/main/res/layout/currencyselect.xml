@@ -1,42 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff5a2">
     <Button
-        android:layout_width="259sp"
+        android:layout_width="fill_parent"
         android:layout_height="100sp"
         android:text="Dollars to Pesos"
         android:id="@+id/btndp"
         android:background="@drawable/benj"
-        android:layout_margin="@dimen/abc_action_button_min_width_overflow_material"
         android:clickable="false"
         android:backgroundTint="#ff001eff"
         android:textColor="#ff002cff"
         android:textSize="40sp"
         android:backgroundTintMode="src_over"
         android:capitalize="words"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_marginTop="64dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal">
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearLayout">
 
-        <Button
-            android:layout_width="259dp"
-            android:layout_height="100sp"
-            android:text="Pesos to Dollars"
-            android:id="@+id/btnpd"
-            android:background="@drawable/pesos"
-            android:layout_margin="@dimen/abc_action_button_min_width_overflow_material"
-            android:clickable="false"
-            android:backgroundTint="#ff001eff"
-            android:textColor="#fffffbfd"
-            android:textSize="40sp"
-            android:backgroundTintMode="src_over"
-            android:capitalize="words"
-            android:textStyle="bold" />
     </LinearLayout>
-</LinearLayout>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="Pesos to Dollars"
+        android:id="@+id/btnpd"
+        android:background="@drawable/pesos"
+        android:clickable="false"
+        android:backgroundTint="#ff001eff"
+        android:textColor="#fffffbfd"
+        android:textSize="40sp"
+        android:backgroundTintMode="src_over"
+        android:capitalize="words"
+        android:textStyle="bold"
+        android:layout_marginTop="78dp"
+        android:layout_below="@+id/btndp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="From"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:textSize="30pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="or"
+        android:id="@+id/textView3"
+        android:textSize="30pt"
+        android:layout_below="@+id/btndp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Rate us"
+        android:id="@+id/textView4"
+        android:textSize="20pt"
+        android:layout_below="@+id/btnpd"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

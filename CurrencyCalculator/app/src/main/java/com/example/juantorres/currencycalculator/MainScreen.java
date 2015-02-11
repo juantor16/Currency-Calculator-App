@@ -24,13 +24,7 @@ public class MainScreen extends ActionBarActivity {
                 startActivity(new Intent(MainScreen.this,CurrencySelect.class));
             }
         });
-        final Button btnabout = (Button) findViewById(R.id.btnabout);
 
-        btnabout.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(MainScreen.this,AboutBlueDollar.class));
-            }
-        });
 
     }
 

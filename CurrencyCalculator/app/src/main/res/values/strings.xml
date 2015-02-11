@@ -8,7 +8,7 @@
     <string name="Pesos_to_Dollars">Pesos to Dollars</string>
     <string name="Dollars_to_pesos">Dollars to Pesos</string>
     //Texts
-    <string name="hello_world">Currency Calculator</string>
+    <string name="hello_world">Dollar Blue</string>
     <string name="amount">enter the amount you would like to calculate</string>
     //User Input
     <string name="enter_number">Enter the amount here</string>
